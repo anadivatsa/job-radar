@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+venv/
+
+# Personal config — copy the .example files and fill in
+notifier.env
+profile.json
+sources.json
+
+# Runtime — SQLite dedup DB
+data/

@@ -1,0 +1,62 @@
+{
+  "_comment": "Copy this to profile.json and tune to your target roles. Scores are additive; threshold is the minimum total to trigger an alert.",
+  "threshold": 40,
+
+  "title_keywords": [
+    {"phrase": "associate product manager", "score": 40},
+    {"phrase": "apm",                       "score": 40},
+    {"phrase": "product manager",           "score": 35},
+    {"phrase": "product analyst",           "score": 25},
+    {"phrase": "product lead",              "score": 20},
+    {"phrase": "growth manager",            "score": 18},
+    {"phrase": "research analyst",          "score": 15},
+    {"phrase": "strategy analyst",          "score": 15},
+    {"phrase": "program manager",           "score": 12},
+    {"phrase": "business analyst",          "score": 12}
+  ],
+
+  "title_exclude": [
+    "senior director",
+    "vice president",
+    "vp of",
+    "svp",
+    "evp",
+    "chief",
+    "principal engineer",
+    "software engineer",
+    "data engineer",
+    "devops",
+    "sales executive",
+    "sales manager",
+    "account manager",
+    "account executive",
+    "recruiter",
+    "talent acquisition"
+  ],
+
+  "description_keywords": [
+    {"phrase": "product management",     "score": 5},
+    {"phrase": "product roadmap",        "score": 4},
+    {"phrase": "roadmap",                "score": 3},
+    {"phrase": "user research",          "score": 4},
+    {"phrase": "agile",                  "score": 3},
+    {"phrase": "growth",                 "score": 4},
+    {"phrase": "analytics",              "score": 3},
+    {"phrase": "data-driven",            "score": 3},
+    {"phrase": "cross-functional",       "score": 3},
+    {"phrase": "machine learning",       "score": 5},
+    {"phrase": "artificial intelligence","score": 5},
+    {"phrase": "0-3 years",              "score": 5},
+    {"phrase": "0-2 years",              "score": 5},
+    {"phrase": "entry level",            "score": 5},
+    {"phrase": "new grad",               "score": 5},
+    {"phrase": "recent graduate",        "score": 5}
+  ],
+
+  "location_bonus": [
+    {"place": "remote",      "score": 10},
+    {"place": "new york",    "score": 8},
+    {"place": "san francisco","score": 8},
+    {"place": "london",      "score": 6}
+  ]
+}

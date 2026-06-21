@@ -1,0 +1,14 @@
+[
+  {"platform": "greenhouse", "token": "anthropic",  "company": "Anthropic"},
+  {"platform": "greenhouse", "token": "figma",      "company": "Figma"},
+  {"platform": "greenhouse", "token": "stripe",     "company": "Stripe"},
+  {"platform": "lever",      "token": "linear",     "company": "Linear"},
+  {"platform": "lever",      "token": "vercel",     "company": "Vercel"},
+  {"platform": "greenhouse", "token": "notion",     "company": "Notion"},
+  {"platform": "greenhouse", "token": "airbnb",     "company": "Airbnb"},
+  {"platform": "greenhouse", "token": "coinbase",   "company": "Coinbase"},
+  {"platform": "greenhouse", "token": "robinhood",  "company": "Robinhood"},
+  {"platform": "greenhouse", "token": "duolingo",   "company": "Duolingo"},
+  {"platform": "greenhouse", "token": "dropbox",    "company": "Dropbox"},
+  {"platform": "greenhouse", "token": "hubspot",    "company": "HubSpot",  "region": "eu"}
+]
